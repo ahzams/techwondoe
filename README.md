@@ -7,7 +7,7 @@ Content is coming from a headless CMS (Content Management System)
 
 ✅ Prettier and Linter configuration
 
-#How to run the app
+# How to run the app
 Clone down this repository. You will need node and npm installed globally on your machine.
 
 **Installation:**
