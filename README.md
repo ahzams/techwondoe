@@ -1,4 +1,4 @@
-#Techwondoe Homepage using React
+# Techwondoe Homepage using React
 Content is coming from a headless CMS (Content Management System)
 
 ✅ Each section of the homepage is a separate react component
