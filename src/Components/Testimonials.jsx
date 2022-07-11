@@ -10,8 +10,8 @@ export default function Testimonials(props) {
                 <h2 className='my-[10px] hidden xsm:block'>{test[0]}</h2>
                 <h1 className='text-[50px] mb-[10px] leading-[60px] xsm:leading-none'>{test[1]}<span className='text-yellow-400'>.</span></h1>
             </div>
-            <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
-                <div class="carousel-indicators flex justify-center p-0 xsm:mb-11 my-11">
+            <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
+                <div className="carousel-indicators flex justify-center p-0 xsm:mb-11 my-11">
                     <button
                         type="button"
                         data-bs-target="#carouselExampleCaptions"
@@ -33,14 +33,14 @@ export default function Testimonials(props) {
                         aria-label="Slide 3"
                     ></button>
                 </div>
-                <div class="carousel-inner relative w-full overflow-hidden">
-                    <div class="carousel-item active relative float-left left-[22%] w-full">
+                <div className="carousel-inner relative w-full overflow-hidden">
+                    <div className="carousel-item active relative float-left left-[22%] w-full">
                         <Card card={cardOne} pic={photos[0].fields.file.url} />
                     </div>
-                    <div class="carousel-item relative float-left left-[22%] w-full">
+                    <div className="carousel-item relative float-left left-[22%] w-full">
                         <Card card={cardTwo} pic={photos[1].fields.file.url} />
                     </div>
-                    <div class="carousel-item relative float-left left-[22%] w-full">
+                    <div className="carousel-item relative float-left left-[22%] w-full">
                         <Card card={cardThree} pic={photos[2].fields.file.url} />
                     </div>
                 </div>
